@@ -8,10 +8,10 @@ This is the official implementation for **Champion Solution** for Ego4D EgoSchem
 
 ![Framework](/figure/framework.png)
 
-## Requirements
+## 🔧 Requirements
 openai=0.28、python=3.11
 
-## Usage
+## 🏆 Usage
 ### Stage 1:
 We use [LaViLa](https://github.com/facebookresearch/LaViLa) to generate 5 captions for each 4-second clip. For simplicity, we have provided the generated data in the `LaViLa_cap5` directory. Also we have provided the captions of the EgoShema subset, see `LaViLa_cap5_subset` directory.
 ```
@@ -35,3 +35,21 @@ After the answers are predicted, you can convert the results into submission for
 python postprocess.py
 python validate.py --f result.json
 ```
+
+## 🎓 Citation
+If our work is helpful to you, please cite our paper.
+
+```
+@inproceedings{zhang2024hcqa,
+  title={HCQA @ Ego4D EgoShema Challenge 2024},
+  author={},
+  booktitle={},
+  year={2024}
+}
+```
+
+## ✉️ Contact
+Questions and discussions are welcome via `zhang.hy.2019@gmail.com`.
+
+## 🔖 License
+[MIT License]()
