@@ -9,8 +9,7 @@ This is the official implementation for champion solution for Ego4D EgoSchema Ch
 ![Framework](/figure/framework.png)
 
 ## Requirements
-openai=0.28
-python=3.11
+openai=0.28、python=3.11
 
 ## Usage
 ### Stage 1:
@@ -29,4 +28,10 @@ python two_stage_summary.py
 We use in-context learning to guide LLM for more accurate responses. Note that before running the code, please update the key and base_url of OpenAI.
 ```
 python two_stage_qa.py
+```
+
+After the answers are predicted, you can convert the results into submission format via the `postprocess.py` file and upload it to the test server for validation.
+```
+python postprocess.py
+python validate.py --f result.json
 ```
