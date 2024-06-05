@@ -1,6 +1,6 @@
 # HCQA
 
-This is the official implementation for champion solution for Ego4D EgoSchema Challenge in CVPR 2024.
+This is the official implementation for **Champion Solution** for Ego4D EgoSchema Challenge in CVPR 2024.
 
 [Paper]() | [GitHub]() | [Challenge]()
 
