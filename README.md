@@ -2,7 +2,7 @@
 
 This is the official implementation for **Champion Solution** for Ego4D EgoSchema Challenge in CVPR 2024.
 
-[Paper]() | [GitHub]() | [Challenge]()
+[Paper](https://arxiv.org/abs/2406.15771) | [GitHub](https://github.com/Hyu-Zhang/HCQA) | [Challenge]()
 
 ***
 
